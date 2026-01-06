@@ -24,4 +24,3 @@ r.raise_for_status()
 data = r.json()
 
 print(data["result"]["random"]["data"])
-#dfbdfbd
