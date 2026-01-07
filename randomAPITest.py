@@ -17,6 +17,7 @@ payload = {
     "id": 42
 }
 
+#payload above requests 10 random numbers between 0 and 100
 r = requests.post(url, json=payload)
 
 r.raise_for_status()
